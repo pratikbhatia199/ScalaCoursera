@@ -16,5 +16,7 @@ def balance(chars: List[Char]): Boolean = {
   parens.isEmpty
 }
 
-val answer: Boolean = balance(List('(', ')', ')'))
+
+val answer: Boolean = balance(List('(', ')','(', ')'))
 println(answer)
+
